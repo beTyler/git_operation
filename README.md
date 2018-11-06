@@ -112,6 +112,9 @@ Git有三大区：工作区、暂存区、版本库（如上图 ）
         
         > 当你从远程仓库克隆时，实际上Git自动把本地的master分支和远程的master分支对应起来了，并且，远程仓库的默认名称是origin
         
+ 4.  当推送到远程仓库报错error: failed to push some refs to 'git@github.com:beTyler/git-.git'时：
+        执行：git pull --rebase origin master 将远程仓库内容同步到本地，然后在执行推送远程仓库的操作即可。
+        
 
 ### [](#_8)推送到远程仓库（重点）
 
